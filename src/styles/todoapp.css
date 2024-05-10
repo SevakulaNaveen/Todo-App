@@ -1,0 +1,54 @@
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    
+}
+
+.heading{
+    text-align: center;
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button{
+    padding: 8px 16px;
+    background-color: rgb(44, 210, 105);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:rgb(24, 181, 82) ;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin: 10px 0;
+}
+
+.delete{
+    background-color: rgb(222, 97, 97);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.delete:hover{
+    background-color: rgb(206, 67, 67);
+}
